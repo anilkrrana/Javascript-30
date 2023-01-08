@@ -29,7 +29,7 @@ function createTags(input) {
 }
 
 function randomSelect() {
-    const times = 30
+    const times = 30;
 
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
