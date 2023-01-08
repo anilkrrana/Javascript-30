@@ -29,7 +29,7 @@ function createTags(input) {
 }
 
 function randomSelect() {
-    const times = 30;
+    const times = 30
 
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
@@ -55,7 +55,7 @@ function randomSelect() {
     }, times * 100)
 }
 
-function pickRandomTag() {
+function pickRandomTag(tag) {
     const tags = document.querySelectorAll('.tag')
     return tags[Math.floor(Math.random() * tags.length)]
 }
